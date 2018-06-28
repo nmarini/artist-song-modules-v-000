@@ -10,6 +10,7 @@ class Artist
   def self.find_by_name(name)
     @@artists.detect{|a| a.name == name}
   end
+end
 
   def initialize
     @@artists << self
